@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Coco Grove Beach Club</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+<div class="logo">
+<img src="images/log.jfif">
+
+<div class="logo-text">
+<h2>Coco Grove</h2>
+<span>BEACH CLUB SIQUIJOR</span>
+</div>
+
+</div>
+
+<!-- HAMBURGER TOGGLE (NO JS) -->
+<input type="checkbox" id="menu-toggle">
+
+<label for="menu-toggle" class="hamburger">
+<i class="fa fa-bars"></i>
+</label>
+
+<nav class="nav-links">
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+<div class="slider">
+
+<div class="slide slide1"></div>
+<div class="slide slide2"></div>
+<div class="slide slide3"></div>
+
+</div>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<div class="hero-tag">
+✦ WELCOME TO SIQUIJOR ✦
+</div>
+
+<h1>
+COCO GROVE<br>
+<em>BEACH CLUB</em>
+</h1>
+
+<p>
+Luxury • Relaxation • Paradise
+</p>
+
+<a href="#gallery" class="btn">
+Explore Resort
+</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+
+<div class="container">
+
+<div class="section-label">
+</div>
+
+<h2 class="title">
+About Coco Grove
+</h2>
+
+<div class="about-box">
+
+<!-- ABOUT IMAGES -->
+<div class="about-images">
+
+<div class="main-about-image">
+<img src="images/map.jfif" class="about-img" onclick="openGallery(0)">
+</div>
+
+<div class="about-small">
+
+<div class="image-box">
+<img src="images/payong.jfif" class="about-img" onclick="openGallery(1)">
+</div>
+
+<div class="image-box">
+<img src="images/kalubihan.jfif" class="about-img" onclick="openGallery(2)">
+</div>
+
+<div class="image-box">
+<img src="images/balay.jfif" class="about-img" onclick="openGallery(3)">
+</div>
+
+</div>
+
+</div>
+
+<div class="about-text">
+
+<h3>
+Luxury Island Escape
+</h3>
+
+<p>
+Coco Grove Beach Club is one of the most beautiful resorts in Siquijor known for its crystal-clear waters, tropical atmosphere, relaxing villas, and peaceful island experience.
+</p>
+
+<p>
+Guests can enjoy white sand beaches, infinity pools, beachfront dining, luxury accommodations, and unforgettable sunsets.
+</p>
+
+<p>
+Perfect for family vacations, romantic getaways, and tropical adventures.
+</p>
+
+<a href="#gallery" class="btn">
+View Gallery
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+
+<div class="container">
+
+<div class="section-label">
+EXPLORE
+</div>
+
+<h2 class="title">
+Resort Gallery
+</h2>
+
+<!-- BEACH -->
+<details open>
+
+<summary>🏖 Beach Views</summary>
+
+<div class="gallery-grid">
+
+<div class="card">
+<img src="images/white.jfif">
+<div class="card-overlay">
+<h3>White Sand Beach</h3>
+<p>Relax beside crystal-clear waters.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/sunset.jfif">
+<div class="card-overlay">
+<h3>Ocean Sunset</h3>
+<p>Beautiful sunset scenery by the sea.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/tropical.jfif">
+<div class="card-overlay">
+<h3>Tropical Paradise</h3>
+<p>Peaceful island atmosphere and scenery.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/kalubihan.jfif">
+<div class="card-overlay">
+<h3>Island Escape</h3>
+<p>Experience tropical luxury and comfort.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/clear.jfif">
+<div class="card-overlay">
+<h3>Clear Waters</h3>
+<p>Perfect for swimming and relaxing.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/walk.jfif">
+<div class="card-overlay">
+<h3>Beach Walk</h3>
+<p>Enjoy peaceful walks beside the sea.</p>
+</div>
+</div>
+
+</div>
+
+</details>
+
+<!-- POOL -->
+<details>
+
+<summary>🏊 Swimming Pool</summary>
+
+<div class="gallery-grid">
+
+<div class="card">
+<img src="images/payong.jfif">
+<div class="card-overlay">
+<h3>Infinity Pool</h3>
+<p>Luxury infinity pool with ocean view.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/tropical.jfif">
+<div class="card-overlay">
+<h3>Poolside Lounge</h3>
+<p>Relax beside the refreshing pool area.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/zoom.jfif">
+<div class="card-overlay">
+<h3>Modern Pool</h3>
+<p>Elegant tropical swimming pool design.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/night.jfif">
+<div class="card-overlay">
+<h3>Pool View</h3>
+<p>Beautiful daytime tropical pool scenery.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/zoom.jfif">
+<div class="card-overlay">
+<h3>Luxury Relaxation</h3>
+<p>Perfect place to chill and swim.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/night.jfif">
+<div class="card-overlay">
+<h3>Pool Experience</h3>
+<p>Enjoy refreshing tropical vibes.</p>
+</div>
+</div>
+
+</div>
+
+</details>
+
+<!-- DINING -->
+<details>
+
+<summary>🍽 Dining Area</summary>
+
+<div class="gallery-grid">
+
+<div class="card">
+<img src="images/seat.jfif">
+<div class="card-overlay">
+<h3>Seafood Dining</h3>
+<p>Fresh seafood dishes beside the beach.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/romantic.jfif">
+<div class="card-overlay">
+<h3>Romantic Dinner</h3>
+<p>Enjoy candlelight dinner by the sea.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/tropicall.jfif">
+<div class="card-overlay">
+<h3>Tropical Drinks</h3>
+<p>Refreshing island beverages and cocktails.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/luxury.jfif">
+<div class="card-overlay">
+<h3>Luxury Restaurant</h3>
+<p>Elegant island-inspired dining area.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/outdoor.jfif">
+<div class="card-overlay">
+<h3>Outdoor Dining</h3>
+<p>Enjoy meals beside nature and the sea.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/island.jfif">
+<div class="card-overlay">
+<h3>Island Cuisine</h3>
+<p>Experience delicious tropical flavors.</p>
+</div>
+</div>
+
+</div>
+
+</details>
+
+<!-- BEDROOM -->
+<details>
+
+<summary>🛏 Bedrooms</summary>
+
+<div class="gallery-grid">
+
+<div class="card">
+<img src="images/luxurybed.jfif">
+<div class="card-overlay">
+<h3>Luxury Villa</h3>
+<p>Comfortable tropical-inspired villa room.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/oceanview.jfif">
+<div class="card-overlay">
+<h3>Ocean View Room</h3>
+<p>Wake up with relaxing sea views.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/tropicalbed.jfif">
+<div class="card-overlay">
+<h3>Modern Bedroom</h3>
+<p>Elegant and peaceful accommodation.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/suite.jfif">
+<div class="card-overlay">
+<h3>Resort Suite</h3>
+<p>Spacious luxury suite for guests.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/interior.jfif">
+<div class="card-overlay">
+<h3>Tropical Interior</h3>
+<p>Beautiful island-inspired bedroom design.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="images/relaxing.jfif">
+<div class="card-overlay">
+<h3>Relaxing Stay</h3>
+<p>Enjoy comfort and luxury during your stay.</p>
+</div>
+</div>
+
+</div>
+
+</details>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+<div class="container">
+
+<div class="section-label">
+
+</div>
+
+<h2 class="title">
+CONTACT
+</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<i class="fa fa-phone"></i>
+
+<h3>Phone</h3>
+
+<p>+63 917 314 1415</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fa fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>cocogrove@gmail.com</p>
+
+</div>
+
+<div class="contact-card">
+
+<i class="fa fa-location-dot"></i>
+
+<h3>Location</h3>
+
+<a 
+href="https://maps.google.com/?q=Coco+Grove+Beach+Resort+Siquijor" 
+target="_blank"
+class="location-btn">
+
+Casa Coco, Siquijor Circumferential Rd, Tubod, San Juan, Siquijor
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<p>
+© 2026 Coco Grove Beach Club
+</p>
+
+</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+
+<span class="close-modal" onclick="closeModal()">
+&times;
+</span>
+
+<div class="modal-container">
+
+<button class="modal-btn prev" onclick="changeImage(-1)">
+❮
+</button>
+
+<img id="modal-image">
+
+<button class="modal-btn next" onclick="changeImage(1)">
+❯
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+const aboutImages = [
+
+"images/map.jfif",
+"images/payong.jfif",
+"images/kalubihan.jfif",
+"images/balay.jfif"
+
+];
+
+let currentImage = 0;
+
+function openGallery(index){
+
+currentImage = index;
+
+document.getElementById("modal").style.display = "flex";
+
+document.getElementById("modal-image").src = aboutImages[currentImage];
+
+}
+
+function closeModal(){
+
+document.getElementById("modal").style.display = "none";
+
+}
+
+function changeImage(direction){
+
+currentImage += direction;
+
+if(currentImage >= aboutImages.length){
+currentImage = 0;
+}
+
+if(currentImage < 0){
+currentImage = aboutImages.length - 1;
+}
+
+document.getElementById("modal-image").src = aboutImages[currentImage];
+
+}
+
+window.onclick = function(e){
+
+const modal = document.getElementById("modal");
+
+if(e.target == modal){
+
+modal.style.display = "none";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
